@@ -23,7 +23,7 @@ class EarningController extends Controller
 
         $earnings =$earnings->orderBy('id', 'desc')->paginate(20);
 
-        $customers = Customer::where('status',1)->get();
+        $customers = Customer::where('account_type','ADMIN')->get();
 
         return view('admin.earning.view',['earnings'=>$earnings,'customers'=>$customers]);
 
