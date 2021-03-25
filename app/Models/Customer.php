@@ -214,11 +214,11 @@ class Customer extends Authenticatable implements JWTSubject
         return $this->belongsToMany('App\Models\Interest', 'user_interests', 'user_id','interest_id');
     }
 
-    public function getShortVideoAttribute($value){
-        if($value)
-            return Storage::url($value);
-
-        return null;
-    }
+//    public function getShortVideoAttribute($value){
+//        if($value)
+//            return Storage::url($value);
+//
+//        return null;
+//    }
 
 }
