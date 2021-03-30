@@ -127,95 +127,95 @@
 </section>
 <!-- Sections ends -->
 <!-- Section Starts -->
-<section id="services" class="services py-5 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8 mb-3 mx-auto text-center">
-                <div class="section-title">
-                    <h4>PROFILES</h4>
-                </div>
-            </div>
-        </div>
-        <!--<h3 class="heading text-center mb-5">What We Do</h3> -->
-        <div class="row">
-                <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
-                    <div class=" card blog-block pt-2">
-                        <img src="homepage/img/funiz4.jpg" class=" img-fluid card-img-top" style="height: 280px; min-height: 220px;">
-                        <div style="text-align: center; margin-top:15px;">
-                            <h4 >Shipra</h4>
-                            <p>23 years old</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
-                    <div class=" card blog-block pt-2">
-                        <img src="homepage/img/funiz8.jpg" class=" img-fluid card-img-top" style="height: 280px; min-height: 220px;">
-                        <div style="text-align: center; margin-top:15px;">
-                            <h4 >Zafa Jha</h4>
-                            <p>26 years old</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
-                    <div class=" card blog-block pt-2">
-                        <img src="homepage/img/matchon4.jpg" class=" img-fluid card-img-top" style="height: 280px; min-height: 220px;">
-                        <div style="text-align: center; margin-top:15px;">
-                            <h4 >Noor Khan</h4>
-                            <p>21 years old</p>
-                        </div>
-                    </div>
-                </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
-                <div class=" card blog-block pt-2">
-                    <img src="homepage/img/funiz10.jpg" class=" img-fluid card-img-top" style="height: 280px; min-height: 220px;">
-                    <div style="text-align: center; margin-top:15px;">
-                        <h4 >Gima Ashi</h4>
-                        <p>27 years old</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--<section id="services" class="services py-5 bg-light">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-xl-8 mb-3 mx-auto text-center">--}}
+{{--                <div class="section-title">--}}
+{{--                    <h4>PROFILES</h4>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <!--<h3 class="heading text-center mb-5">What We Do</h3> -->--}}
+{{--        <div class="row">--}}
+{{--                <div class="col-lg-3 col-md-6 col-xs-12 mb-3">--}}
+{{--                    <div class=" card blog-block pt-2">--}}
+{{--                        <img src="homepage/img/funiz4.jpg" class=" img-fluid card-img-top" style="height: 280px; min-height: 220px;">--}}
+{{--                        <div style="text-align: center; margin-top:15px;">--}}
+{{--                            <h4 >Shipra</h4>--}}
+{{--                            <p>23 years old</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-lg-3 col-md-6 col-xs-12 mb-3">--}}
+{{--                    <div class=" card blog-block pt-2">--}}
+{{--                        <img src="homepage/img/funiz8.jpg" class=" img-fluid card-img-top" style="height: 280px; min-height: 220px;">--}}
+{{--                        <div style="text-align: center; margin-top:15px;">--}}
+{{--                            <h4 >Zafa Jha</h4>--}}
+{{--                            <p>26 years old</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-lg-3 col-md-6 col-xs-12 mb-3">--}}
+{{--                    <div class=" card blog-block pt-2">--}}
+{{--                        <img src="homepage/img/matchon4.jpg" class=" img-fluid card-img-top" style="height: 280px; min-height: 220px;">--}}
+{{--                        <div style="text-align: center; margin-top:15px;">--}}
+{{--                            <h4 >Noor Khan</h4>--}}
+{{--                            <p>21 years old</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            <div class="col-lg-3 col-md-6 col-xs-12 mb-3">--}}
+{{--                <div class=" card blog-block pt-2">--}}
+{{--                    <img src="homepage/img/funiz10.jpg" class=" img-fluid card-img-top" style="height: 280px; min-height: 220px;">--}}
+{{--                    <div style="text-align: center; margin-top:15px;">--}}
+{{--                        <h4 >Gima Ashi</h4>--}}
+{{--                        <p>27 years old</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
-</section>
+{{--</section>--}}
 
-<section class="bg-blms py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8 mx-auto mb-3 text-center">
-                <div class="section-title">
-                    <h4> Same of our users </h4>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
-                <div class="">
-                    <img src="homepage/img/funiz2.jpg" class=" img-fluid card-img-top" style="height: 280px;  border-radius: 50%;">
+{{--<section class="bg-blms py-5">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-xl-8 mx-auto mb-3 text-center">--}}
+{{--                <div class="section-title">--}}
+{{--                    <h4> Same of our users </h4>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-lg-3 col-md-6 col-xs-12 mb-3">--}}
+{{--                <div class="">--}}
+{{--                    <img src="homepage/img/funiz2.jpg" class=" img-fluid card-img-top" style="height: 280px;  border-radius: 50%;">--}}
 
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
-                <div class="">
-                    <img src="homepage/img/funiz9.jpg" class=" img-fluid card-img-top" style="height: 280px; border-radius: 50%;">
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-3 col-md-6 col-xs-12 mb-3">--}}
+{{--                <div class="">--}}
+{{--                    <img src="homepage/img/funiz9.jpg" class=" img-fluid card-img-top" style="height: 280px; border-radius: 50%;">--}}
 
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
-                <div class="">
-                    <img src="homepage/img/funiz3.jpg" class=" img-fluid card-img-top" style="height: 280px; border-radius: 50%;">
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-3 col-md-6 col-xs-12 mb-3">--}}
+{{--                <div class="">--}}
+{{--                    <img src="homepage/img/funiz3.jpg" class=" img-fluid card-img-top" style="height: 280px; border-radius: 50%;">--}}
 
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
-                <div class="">
-                    <img src="homepage/img/funiz1.jpg" class=" img-fluid card-img-top" style="height: 280px; border-radius: 50%;">
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-3 col-md-6 col-xs-12 mb-3">--}}
+{{--                <div class="">--}}
+{{--                    <img src="homepage/img/funiz1.jpg" class=" img-fluid card-img-top" style="height: 280px; border-radius: 50%;">--}}
 
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 
 
 <section class="bg-blms py-5">
@@ -224,8 +224,8 @@
             <div class="col-md-12">
                 <h2 class="heading text-center" style="color: black;">
                     Download Our App :
-                    <a href=""><img src="homepage/img/playstore.png" style="width:244px; height:auto;   "></a>
-{{--                    <a href=""><img src="homepage/img/appstore.png" style="width:200px; height:auto;    "></a>--}}
+                    <a href="https://play.google.com/store/apps/details?id=com.avaskm.dating"><img src="homepage/img/playstore.png" style="width:244px; height:auto;   "></a>
+{{--                    <a href=""><img src="homepage/img/appstore.png" style="width:200px; height:auto;    "></a>--}}`
                 </h2>
             </div>
         </div>
