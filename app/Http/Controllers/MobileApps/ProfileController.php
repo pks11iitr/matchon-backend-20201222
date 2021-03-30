@@ -7,6 +7,7 @@ use App\Models\AttendedLavel;
 use App\Models\City;
 use App\Models\Country;
 use App\Models\Document;
+use App\Models\Earning;
 use App\Models\Education;
 use App\Models\Employment;
 use App\Models\EthniCity;
@@ -57,8 +58,17 @@ class ProfileController extends Controller
 //                       'distance_show'=>$user->distance_show,
 //
 //            );
+        $height=$user->Height->name??'';
+
+        $coins=Earning::where('user_id', $user->id)->sum('coins');
+
+        $ethnicity=$user->Ethnicity->name??'';
+
 
         $profile=$user->only('id','name','gender', 'dob', 'mobile', 'email', 'about_me', 'height_id', 'ethicity_id', 'education_id', 'occupation_id', 'job_id', 'religion_id', 'drinking', 'smoking', 'marijuana', 'drugs','age_show', 'distance_show', 'image', 'interests','age');
+        $profile['coins']=$coins;
+        $profile['height']=$height;
+        $profile['ethnicity']=$ethnicity;
 
         $height=Height::select('name', 'id')->get();
         ///  $language=Languages::select('name', 'id')->get();

@@ -185,7 +185,7 @@ class ChatController extends Controller
             \Storage::put($path, $contents, 'public');
         }
 
-        $this->dispatch(new SendBulkMessages($user, $request->type, $request->message_type,$request->message,$path));
+        $this->dispatch(new SendBulkMessages($user, $request->type, $request->message_type,$request->message,$path??null));
 
         return [
             'status'=>'success',

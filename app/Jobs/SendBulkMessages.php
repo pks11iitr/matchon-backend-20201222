@@ -90,7 +90,7 @@ class SendBulkMessages implements ShouldQueue
                     'direction'=>($user->id < $u->id)?0:1,
                     'message'=>$message??'',
                     'image'=>$image,
-                    'type'=>'text'
+                    'type'=>'image'
                 ]);
 
                 $u->notify(new FCMNotification('New Message from '.$user->name, $message??"[$message_type]", ['type'=>'chat','chat_id'=>$user->id.''], 'chat_screen'));
