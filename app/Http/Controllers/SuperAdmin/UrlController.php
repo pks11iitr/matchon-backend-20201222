@@ -12,6 +12,11 @@ class UrlController extends Controller
         return view('admin.url.privacy-policy');
     }
 
+    public function terms(Request  $request){
+
+        return view('admin.url.t-n-c');
+    }
+
 
     public function faq(Request  $request){
 
