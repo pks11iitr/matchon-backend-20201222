@@ -8,14 +8,19 @@ class Msg91
 {
 
     protected static $authkey='356411ArsmC6YGm2604b3160P1';
-    protected static $DLT_TE_ID='1207161589782046450';
-    public static function send($mobile, $message){
+
+    public static function send($mobile, $message, $dlt_te_id){
+
+
+        //$url="https://api.msg91.com/api/sendhttp.php?authkey=".self::$authkey."&mobiles=$mobile&unicode=&country=91&message=".urlencode($message)."&sender=HALLOB&route=4";
+
+        $url="https://api.msg91.com/api/sendhttp.php?authkey=".self::$authkey."&mobiles=$mobile&unicode=&country=91&message=".urlencode($message)."&sender=IMATCH&route=4&DLT_TE_ID=$dlt_te_id";
 
         //return true;
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://api.msg91.com/api/sendhttp.php?authkey=".self::$authkey."&mobiles=$mobile&unicode=&country=91&message=".urlencode($message)."&sender=IMATCH&route=4&DLT_TE_ID=".self::$DLT_TE_ID,
+            CURLOPT_URL => $url,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -33,9 +38,9 @@ class Msg91
 
         //var_dump($response);die;
         if ($err) {
-          return false;
+            return false;
         } else {
-          return true;
+            return true;
         }
     }
 }

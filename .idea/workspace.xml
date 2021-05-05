@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be102a8a-ab93-4d88-a58f-26bbba78daa6" name="Default Changelist" comment="google login">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/url/t-n-c.blage.php" afterDir="false" />
+    <list default="true" id="be102a8a-ab93-4d88-a58f-26bbba78daa6" name="Default Changelist" comment="terms and conditions added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SuperAdmin/UrlController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SuperAdmin/UrlController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/url/privacy-policy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/url/privacy-policy.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/SMS/Msg91.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/SMS/Msg91.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +236,8 @@
       <workItem from="1618806249941" duration="6225000" />
       <workItem from="1618982789710" duration="17000" />
       <workItem from="1619426938273" duration="2781000" />
-      <workItem from="1620044481786" duration="343000" />
+      <workItem from="1620044481786" duration="1094000" />
+      <workItem from="1620207161967" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="apis">
       <created>1610114860219</created>
@@ -367,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619428504376</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="terms and conditions added">
+      <created>1620044962354</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1620044962354</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,6 +395,7 @@
     <MESSAGE value="admin coins,membership api" />
     <MESSAGE value="chat" />
     <MESSAGE value="google login" />
-    <option name="LAST_COMMIT_MESSAGE" value="google login" />
+    <MESSAGE value="terms and conditions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="terms and conditions added" />
   </component>
 </project>

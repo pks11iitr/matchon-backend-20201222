@@ -22,7 +22,7 @@ class OTPModel extends Model
         if($otp){
             return $otp->otp;
         }
-        $otp=self::create(['entity'=>$entity, 'user_id'=>$userid, 'otp'=>111111, 'type'=>$type, 'expiry'=>date('Y-m-d H:i:s')]);
+        $otp=self::create(['entity'=>$entity, 'user_id'=>$userid, 'otp'=>$rand, 'type'=>$type, 'expiry'=>date('Y-m-d H:i:s')]);
         if($otp)
             return $otp->otp;
 
