@@ -27,6 +27,6 @@ class SendOtpListner implements ShouldQueue
      */
     public function handle(SendOtp $event)
     {
-        Msg91::send($event->mobile,$event->message);
+        Msg91::send($event->mobile,$event->message, $event->templateid);
     }
 }

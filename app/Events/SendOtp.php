@@ -14,17 +14,18 @@ class SendOtp
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    public $mobile,$message;
+    public $mobile,$message,$templateid;
 
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct($mobile,$message)
+    public function __construct($mobile,$message,$templateid)
     {
         $this->message=$message;
         $this->mobile=$mobile;
+        $this->templateid=$templateid;
     }
 
     /**
