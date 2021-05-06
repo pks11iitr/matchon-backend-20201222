@@ -115,6 +115,19 @@ class CustomerController extends Controller
                $user->assignRole('caller');
            }
 
+           if(!$customers->sendbird_token){
+               //register on sendbird app
+               $sendbird=app('App\Services\SendBird\SendBird');
+               $response=$sendbird->createUser($user);
+
+               if(isset($response['user_id'])){
+                   $customers->sendbird_token=$response['access_token']??null;
+                   $customers->save();
+               }else{
+                   return redirect()->back()->with('error', 'Something went wrong at sendbird. Please try again');
+               }
+           }
+
            return redirect()->route('customer.list')->with('success', 'Customer has been created');
        }
        return redirect()->back()->with('error', 'Customer create failed');
@@ -198,6 +211,20 @@ class CustomerController extends Controller
 
             if($request->short_video){
                 $customers->saveShortVideo($request->short_video, 'customers');
+            }
+
+
+            if(!$customers->sendbird_token){
+                //register on sendbird app
+                $sendbird=app('App\Services\SendBird\SendBird');
+                $response=$sendbird->createUser($user);
+
+                if(isset($response['user_id'])){
+                    $customers->sendbird_token=$response['access_token']??null;
+                    $customers->save();
+                }else{
+                    return redirect()->back()->with('error', 'Something went wrong at sendbird. Please try again');
+                }
             }
 
             return redirect()->route('customer.list')->with('success', 'Customer has been updated');

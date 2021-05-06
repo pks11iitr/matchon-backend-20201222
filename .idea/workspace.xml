@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be102a8a-ab93-4d88-a58f-26bbba78daa6" name="Default Changelist" comment="msg91 dlt set">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MobileApps/AdminUsersApp/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MobileApps/AdminUsersApp/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MobileApps/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MobileApps/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MobileApps/Auth/OtpController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MobileApps/Auth/OtpController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Listeners/SendOtpListner.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Listeners/SendOtpListner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SuperAdmin/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SuperAdmin/CustomerController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +237,8 @@
       <workItem from="1618982789710" duration="17000" />
       <workItem from="1619426938273" duration="2781000" />
       <workItem from="1620044481786" duration="1094000" />
-      <workItem from="1620207161967" duration="1507000" />
+      <workItem from="1620207161967" duration="1967000" />
+      <workItem from="1620284983037" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="apis">
       <created>1610114860219</created>
@@ -382,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620207955313</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="msg91 dlt set">
+      <created>1620208856750</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1620208856750</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
