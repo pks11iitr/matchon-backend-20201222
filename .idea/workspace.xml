@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be102a8a-ab93-4d88-a58f-26bbba78daa6" name="Default Changelist" comment="msg91 dlt set">
+    <list default="true" id="be102a8a-ab93-4d88-a58f-26bbba78daa6" name="Default Changelist" comment="sendbird token from admin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SuperAdmin/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SuperAdmin/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MobileApps/MatchesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MobileApps/MatchesController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +238,10 @@
       <workItem from="1619426938273" duration="2781000" />
       <workItem from="1620044481786" duration="1094000" />
       <workItem from="1620207161967" duration="1967000" />
-      <workItem from="1620284983037" duration="1399000" />
+      <workItem from="1620284983037" duration="3975000" />
+      <workItem from="1621089432548" duration="305000" />
+      <workItem from="1621089777611" duration="694000" />
+      <workItem from="1621157363398" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="apis">
       <created>1610114860219</created>
@@ -387,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620208856750</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="sendbird token from admin">
+      <created>1620286706197</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1620286706197</updated>
+    </task>
+    <task id="LOCAL-00023" summary="sendbird token from admin">
+      <created>1620286893662</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1620286893662</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,6 +429,7 @@
     <MESSAGE value="google login" />
     <MESSAGE value="terms and conditions added" />
     <MESSAGE value="msg91 dlt set" />
-    <option name="LAST_COMMIT_MESSAGE" value="msg91 dlt set" />
+    <MESSAGE value="sendbird token from admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="sendbird token from admin" />
   </component>
 </project>

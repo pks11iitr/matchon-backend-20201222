@@ -44,7 +44,13 @@ class MatchesController extends Controller
 //        }
 
         //$profiles=$profiles->inRandomOrder();
-        $profiles=$profiles->orderBy('last_active', 'desc')->paginate(10);
+        if($request->country_id){
+            $profiles=$profiles->where('country', $request->country_id);
+        }
+
+        $profiles=$profiles
+            ->orderBy('last_active', 'desc')
+            ->paginate(10);
 
         $next_page_url=$profiles->nextPageUrl();
         $prev_page_url=$profiles->previousPageUrl();
